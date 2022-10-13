@@ -11,7 +11,7 @@ body{
 	font-style: oblique;
 }
 .curso1{
-	background: rgb(165, 42, 42);
+	background: rgb(143, 188, 143);
 	padding:4px;
 	margin: 6px;
 
@@ -19,12 +19,12 @@ body{
 
 
 .curso2{
-	background: rgb(255, 140, 0);
+	background: rgb(255, 215, 0);
 	margin: 6px;
 	padding: 4px;
 }
 .balanze_general{
-	background: rgb(64, 224, 208);
+	background: rgb(240, 128, 128);
 	margin: 6px;
 	padding: 4px;
 }	
@@ -91,15 +91,49 @@ body{
 
 /* css para futbolistas.php*/
 
-.futbolistas{
-	padding: 20px;
+.jugadores ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 40px;
 	margin: 30px;
-	color: rgb(220, 20, 60);
-	font-size: 20px;
 
 }
 
-.contenedor__img{
-	width: 50px;
+
+
+
+.futbolistas{
+	padding: 10px;
+	margin top: 70px;
+	color: rgb(220, 20, 60);
+	font-size: 22px;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+
+
+}
+
+.contenedor__img img{
+
+	width: 480px;
+	height: 480px;
+	 border-radius:10% ;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 
+
+	
+}
+
+.futbolistas__descripcion{
+	font-size: 19px;
+	margin: 5px;rgb(210, 105, 30);
+
+	
+
+
+
 }
 

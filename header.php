@@ -11,7 +11,7 @@
 		<nav class="nav_principal">
 			
 			<ul>
-				<li><a href="index.php">home</a></li>
+				<li><a href="index.php">proyecto</a></li>
 				<li><a href="futbolistas.php">futbolistas</a></li>
 				<li><a href="contacto.php">contacto</a></li>
 			</ul>
